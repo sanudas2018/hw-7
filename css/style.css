@@ -1,0 +1,855 @@
+/*
+@import url('font.css');
+@import url('font.css');
+*/
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+   }
+
+
+
+
+a{
+	
+	text-decoration:none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container{
+	width:80%;
+	margin:0px auto;
+  
+}
+/*The header has been used in three part */
+
+header{
+background-color: rgba(0,0,0,.4);
+height: 50px;
+/*    jodi container ar vitor width use na kora hoy tobe akhane dtite hobe*/
+/*    width:80%;*/
+    position: fixed;
+    top: opx;
+/*    r with jodi 100% hoy ta hole left 10%; dite hobe na */
+    left: 10%;
+    
+ z-index: 10;
+/*( jokhon <section id="welcome" te layer dibo and position: absolute;  position: relative; use korbo thokhon z-index: dite hobe karo ati upore uthe asbe)*/
+    
+}
+/*part 1 header ICON*/
+.icon{
+    padding: 12px 0px;
+    margin-left: 3%;
+    width: 6%;
+    float: left;
+}
+.icon img{
+    height: 30px;
+    width: 60px;
+}
+
+/*part 2 header topnav*/
+
+.topnav{
+     width: 64%;
+    float: left;
+    margin-left: 46px;
+       
+}
+.topnav ul{
+      margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.topnav li{
+    float: left;
+    display: inline-block;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 30px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.topnav li a:hover:not(.active) {
+  background-color: darkslategray;
+    border-radius: 10px;
+}
+.topnav .active {
+  background-color: darkslategray;
+    border-radius: 10px;
+}
+
+
+/*part 3 header icon_social*/
+
+.icon_social{
+    width: 20%;
+    padding-left: 4%;
+    float: right;
+}
+.icon_social a i{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding-left:20px;
+    margin-top: 17px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+            /*  *END The header**/
+
+
+#welcome{
+    background-image:url(../images/2.jpg);
+    padding: 8% 0%;
+    background-size: 100% 100%;
+    position: relative;
+        
+}
+/*
+position: absolute; thak be j layer niye work korchi and
+position: relative;
+layer je div ar under ey ache
+*/
+.content{
+    text-align: center;
+    color: white;
+    line-height: .01;
+    z-index: 2;
+    position: relative;
+/*    z-index dile position: relative dite hobe karon ati akti save propatis;*/
+}
+
+.wel{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+
+
+
+}
+
+.pato{
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    
+}
+
+.content button{
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+}
+
+.layer{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*
+position: absolute; thak be j layer niye work korchi and
+position: relative;
+layer je div ar under ey ache
+*/
+
+/*.................*/
+
+#welcome2{
+    background-image: url(../images/Repeated%20Image.jpg);
+    
+    min-height: 410px;
+    
+}
+
+
+.content_left{
+    text-align: center;
+    
+    line-height: .01;
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    
+ 
+    
+}
+
+.italian{
+    color: red;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 22px;
+    
+}
+.ilt_wel{
+    color: black;
+    font-size: 2em;
+    
+    font-weight: 600;
+    padding-bottom: 16px;
+    
+}
+.con_wel2 , .con_wel3{
+    color: dimgray;
+    font-size: 14px;
+    
+}
+
+.con_wel3 a i{
+    color: dimgray;
+    margin-left: 6px;
+}
+
+
+.images_right{
+    float: left;
+    width: 50%;
+    
+    
+}
+.ima_box{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 9%;
+    
+}
+.ima_box img{
+    border-radius: 4%;
+}
+
+/*..................*/
+
+#welcome3{
+    background-color: ghostwhite;
+    min-height: 380px;
+   
+}
+.gallery1{
+    
+    
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 40px;
+}
+
+.box{
+    
+    min-height: 350px;
+    width: 32%;
+    float: left;
+    
+    
+}
+
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 6%;
+    
+}
+
+.box h4{
+    color: darkslategrey;
+    margin: 8px 0px;
+}
+.box p{
+    line-height: 0.9;
+    margin-top: 13px;
+    font-size: 13px;
+    color: dimgray;
+}
+
+.box a i{
+    color: dimgray;
+    margin-left: 6px;
+}
+
+/*................welcome4................*/
+
+
+#welcome4{
+    background-image: url(../images/Repeated%20Image.jpg);
+    
+    min-height: 440px;
+    margin-bottom: 5%;
+     
+}
+
+.booktable_from{
+    
+    width: 50%;
+    min-height: 390px;
+    float: left;
+    text-align: center;
+    
+}
+
+.Reservation{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    line-height: 0.2;
+    margin: 10px 0px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    
+}
+.book_table{
+    color: black;
+    font-size: 2em;
+    
+    font-weight: 600;
+    padding-bottom: 16px;
+    margin: 0px;
+    
+}
+.left_form{
+    float: left;
+    width: 55%;
+    height: 230px;
+    
+    padding-left: 70px;
+}
+
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: left;
+  margin-bottom: 6px; 
+    margin-left: 6px;
+}
+
+
+
+
+
+.right_form{
+    float: left;
+    width: 45%;
+    height: 230px;
+    
+}
+/*
+use box sizing
+
+
+*/
+.row {
+  padding: 4px 4px;
+  display: block;
+  font-size: 12px;
+    color: dimgray;
+    text-align: left;
+}
+.col-25 {
+ 
+  width: 30%;
+  margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: left;
+  margin-bottom: 6px; 
+    margin-left: 6px;
+}
+
+.col-75 {
+  
+  width: 75%;
+  margin-top: 6px;
+    
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sub{
+   
+}
+input[type=submit] {
+  background-color: black ;
+  color: white;
+    padding: 4px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    margin-top: 8px;
+  
+}
+input[type=submit]:hover {
+  background-color: white;
+    color: black;
+    font-style: italic;
+    
+    font-weight: 600;
+}
+/*.....................................*/
+.booktable_image{
+    
+    width: 50%;
+    min-height: 390px;
+    float: left;
+    
+    
+}
+
+
+/*..............GALLERY SECTION...............*/
+
+#wel_gallery{
+    background-image:url(../images/aaa.jpg);
+    padding: 10% 0%;
+    background-size: 100% 100%;
+    position: relative;
+        
+}
+
+
+/*............portfolio_gallery_filter.............*/
+#portfolio_gallery_filter{
+    
+    background-color: whitesmoke;
+    
+    position: relative;
+}
+
+#myBtnContainer{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 5px 16px;
+  border-radius: 20px;
+background-color: white;
+  cursor: pointer;
+ }   
+
+.btn:hover {
+  background-color: black;
+    color: white;
+}
+
+.btn.active {
+  background-color: black;
+  color: white;
+}
+
+
+/*<!-- Portfolio Gallery Grid -->*/
+ .portfolio_gallery{
+  background-color: #f1f1f1;
+  padding: 20px;
+
+}
+.row {
+  margin: 0px 16px;
+}
+.row,
+.row > .column {
+  padding: 4px 4px;
+}
+.column {
+  float: left;
+  width: 25.00%;
+  height: 210px;
+display: none; /*   Hide all elements by default */
+}
+/*function a ache*/
+.show {
+  display: block;
+    
+}
+.content , img{
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.content,img.hover-shadow {
+  transition: 0.3s;
+}
+
+.content .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+/*..................cont_gallery............*/
+
+
+#cont_gallery{
+    background-color: rgba(0,0,0,.87) ;
+
+    min-height: 450px;
+    
+}
+
+.pato_padding{
+    
+    padding: 20px;
+    height: 400px;
+
+}
+/*pato_padding part one address  [START]*/
+.address{
+    
+    height: 100%;
+    width: 32%;
+    float: left;
+    padding-left: 20px;
+    
+}
+.cont{
+    margin:50px 0px; 
+}
+.cont,h3{
+    color: white;
+    line-height: 0.1;
+    
+}
+
+.cont p{
+    color: dimgray;
+    font-size: 14px;
+    margin: 15px 20px;
+    display: inline-block;
+    
+}
+.cont a i{
+    
+    color: dimgray;
+    font-size: 14px;
+}
+/*............END...............*/
+
+/*pato_padding part TWO lets_tw  [START]*/
+
+.lets_tw{
+    
+    height: 100%;
+    width: 32%;
+    float: left;
+    
+    margin: 0px 20px;
+    margin-top: 30px;
+}
+.lets_tw h3{
+    color: white;
+    line-height: 0.1;
+    
+}
+.lets_tw a p{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+    font-size: 14px;
+}
+.lets_tw a i{
+    color: white;
+}
+
+.lets_tw p{
+    color: dimgray;
+    font-size: 14px;
+    margin:0px;
+    margin-top: 8px;
+}
+
+
+/*............END...............*/
+
+/*pato_padding part THREE gall  [START]*/
+.gall{
+    
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin-top: 30px;
+}
+.gall h3{
+    color: white;
+    line-height: 0.1;
+}
+.div{
+    width: 100%;
+    height: 26%;
+    float: left;
+    
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.div_img{
+    width: 23.8%;
+    height: 100%;
+    margin: 0px 2px;
+    float: left;
+    display: inline-block;
+    
+}
+.div .div_img,img{
+    border-radius:0px; 
+}
+/*............action small gallery...........*/
+
+/*all images control*/
+.gall img{
+    height: 100%;
+    width: 100%;
+    transition: 3s;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.gall img:hover{
+    transform: scale(2.6,2.6);
+/*    image ke aktu hlake vabe show korbe*/
+    opacity: 0.8;
+     border-radius: 20px;
+    
+}
+
+/*............action portfolio_gallery...........*/
+
+/*all images control*/
+.portfolio_gallery img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.portfolio_gallery img:hover{
+    transform: scale(1.1,1.1);
+/*    image ke aktu hlake vabe show korbe*/
+    opacity: 0.8;
+     border-radius: 50px;
+    
+}
+/*................about section..............*/
+
+
+#wel_about{
+    background-image:url(../images/bag.jpg);
+    padding: 10% 0%;
+    background-size: 100% 100%;
+    position: relative;
+        
+}
+
+#wel2_about{
+    background-image: url(../images/Repeated%20Image.jpg);
+    padding: 6% 0%;
+    
+}
+
+.content_ab{
+    
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+.italian_wel2 {
+    font-style: italic;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 26px;
+    
+    
+    
+    
+}
+
+
+.ilt_wel_ab{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 0.1;
+   
+}
+
+.con_wel2_ab{
+    color: dimgray;
+    line-height: 1.5;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/*................about section   .....video_gallery.........*/
+
+
+#video_gallery{
+    background-color: dimgray;
+    height: 480px;
+    margin-bottom: 4%;
+    
+}
+
+.video_min{
+    height: 450px;
+    padding: 15px 0px;
+   
+}
+
+.v_gal{
+    background-image:url(../images/teem.jpg);
+    background-size: 100% 100%;
+    padding: 15px 0px;
+    margin-top: 15px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: .01;
+    z-index: 8;
+    position: relative;
+    
+}
+
+.italian_ab{
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 80px;
+    z-index: 8;
+    position: relative;
+}
+.ilt_wel_ab{
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    z-index: 8;
+    position: relative;
+}
+
+
+
+.v_gal i{
+    color: white;
+    font-size: 50px;
+    z-index: 8;
+    position: relative;
+}
+.layer_gal{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/*..................footer SECTION..............*/
+
+    footer{
+    
+    height: 50px;
+    background-color: black;
+        
+    
+    
+}
+
+
+.foot_left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+    
+}
+
+.foot_social{
+    padding-left: 40px;
+}
+.foot_social a i{
+    
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding:18px 14px;
+    
+    color: white;
+    font-size: 12px;
+    
+}
+
+.foot_right{
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: dimgray;
+    font-size: 12px;
+    padding:18px 0px;
+    padding-left: 13%;
+    
+}
+.foot_right a i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
